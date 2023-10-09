@@ -71,7 +71,7 @@ document.write("El numero tiene: " + cantidadDigitos(num) + " digitos.");*/
 
 //SOLUCION 4
 
-function retornePromedio(x1, x2, x3){
+/*function retornePromedio(x1, x2, x3){
     let suma = (x1 + x2 + x3);
     let promedio = (suma)/3;
     return promedio;
@@ -81,4 +81,17 @@ let x1 = parseInt(prompt("Ingrese el primer numero: "));
 let x2 = parseInt(prompt("Ingrese el segundo numero: "));
 let x3 = parseInt(prompt("Ingrese el tercer numero: "));
 document.write("Los numeros ingresados son: " + x1 + "," + x2 + "," + x3 + "<br>");
-document.write("El promedio de los 3 numeros ingresados es : " + retornePromedio(x1, x2, x3));
+document.write("El promedio de los 3 numeros ingresados es : " + retornePromedio(x1, x2, x3));*/
+
+//SOLUCION 5
+
+function sumaValores() {
+  let suma = 0;
+  for (let i = 1; i <= 5; i++) {
+    let valor = parseInt(prompt("Ingrese un numero: "));
+    suma = suma + valor;
+  }
+  return suma;
+}
+let su = sumaValores();
+document.write("La suma de los numeros es: " + su);
