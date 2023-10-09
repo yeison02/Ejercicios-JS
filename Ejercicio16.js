@@ -44,7 +44,7 @@ document.write("El numero mayor de los tres valores es: " + mayor);*/
 
 //SOLUCION 3
 
-function cantidadDigitos(num) {
+/*function cantidadDigitos(num) {
   if (num < 10) {
     return 1;
   } else {
@@ -67,4 +67,18 @@ function cantidadDigitos(num) {
 }
 
 let num = parseInt(prompt("Ingrese un numero de hasta 1 a 5 digitos: "));
-document.write("El numero tiene: " + cantidadDigitos(num) + " digitos.");
+document.write("El numero tiene: " + cantidadDigitos(num) + " digitos.");*/
+
+//SOLUCION 4
+
+function retornePromedio(x1, x2, x3){
+    let suma = (x1 + x2 + x3);
+    let promedio = (suma)/3;
+    return promedio;
+}
+
+let x1 = parseInt(prompt("Ingrese el primer numero: "));
+let x2 = parseInt(prompt("Ingrese el segundo numero: "));
+let x3 = parseInt(prompt("Ingrese el tercer numero: "));
+document.write("Los numeros ingresados son: " + x1 + "," + x2 + "," + x3 + "<br>");
+document.write("El promedio de los 3 numeros ingresados es : " + retornePromedio(x1, x2, x3));
