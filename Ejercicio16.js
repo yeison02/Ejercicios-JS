@@ -33,11 +33,38 @@ document.write("El numero mayor de los tres valores es: " + mayor);*/
 
 //SOLUCION 2
 
-function perimetroCuadrado (x){
+/*function perimetroCuadrado (x){
     let peri = x * 4;
     return peri;
 
 }
  let x = parseInt(prompt("Ingrese el lado del cuadrado: "));
  let perimetro = perimetroCuadrado(x);
- document.write("El perimetro del cuadrado es: " + perimetro);
+ document.write("El perimetro del cuadrado es: " + perimetro);*/
+
+//SOLUCION 3
+
+function cantidadDigitos(num) {
+  if (num < 10) {
+    return 1;
+  } else {
+    if (num < 100) {
+      return 2;
+    } else {
+      if (num < 1000) {
+        return 3;
+      } else {
+        if (num < 10000) {
+          return 4;
+        } else {
+          if (num < 100000) {
+            return 5;
+          }
+        }
+      }
+    }
+  }
+}
+
+let num = parseInt(prompt("Ingrese un numero de hasta 1 a 5 digitos: "));
+document.write("El numero tiene: " + cantidadDigitos(num) + " digitos.");
