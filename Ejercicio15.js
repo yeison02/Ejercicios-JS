@@ -8,7 +8,7 @@ PROBLEMAS
 
 //SOLUCION 1
 
-/*function mostrarMenor(valor1, valor2, valor3) {
+function mostrarMenor(valor1, valor2, valor3) {
     if (valor1 < valor2 && valor1 < valor3) {
       document.write("El numero menor es: " + valor1);
     } else {
@@ -23,7 +23,7 @@ PROBLEMAS
   let valor1 = parseInt(prompt("Ingrese el pimer valor: "));
   let valor2 = parseInt(prompt("Ingrese el segundo valor: "));
   let valor3 = parseInt(prompt("Ingrese el tercer valor: "));
-  mostrarMenor(valor1, valor2, valor3);*/
+  mostrarMenor(valor1, valor2, valor3);
 
 //SOLUCION 2
 
