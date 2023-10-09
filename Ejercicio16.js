@@ -11,7 +11,7 @@ PROBLEMAS
 
 //SOLUCION 1
 
-function numeroMayor(num1, num2, num3) {
+/*function numeroMayor(num1, num2, num3) {
   if (num1 > num2 && num1 > num3) {
     return num1;
   } else {
@@ -29,4 +29,15 @@ let num3 = parseInt(prompt("Ingrese el tercer numero: "));
 document.write("Los tres valores ingresados son: " + num1 + " ," + num2 + ", " + num3 + "<br>");
 
 let mayor = numeroMayor(num1, num2, num3);
-document.write("El numero mayor de los tres valores es: " + mayor);
+document.write("El numero mayor de los tres valores es: " + mayor);*/
+
+//SOLUCION 2
+
+function perimetroCuadrado (x){
+    let peri = x * 4;
+    return peri;
+
+}
+ let x = parseInt(prompt("Ingrese el lado del cuadrado: "));
+ let perimetro = perimetroCuadrado(x);
+ document.write("El perimetro del cuadrado es: " + perimetro);
