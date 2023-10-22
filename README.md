@@ -9,25 +9,11 @@ En este proyecto, he utilizado principalmente el siguiente lenguaje de programac
 ## Contenido
 
 1. [Introducción](#Introducción)
-2. [Ejercicios](#Ejercicios)
-3. [Cómo utilizar este repositorio](#Cómo-utilizar-este-repositorio)
+2. [Cómo utilizar este repositorio](#Cómo-utilizar-este-repositorio)
 
 ## Introducción
 
 Este curso de ejercicios está diseñado para programadores de todos los niveles, desde principiantes hasta intermedios. Los ejercicios cubren una variedad de conceptos y desafíos que ayudarán a mejorar habilidades en JavaScript.
-
-## Ejercicios
-
-Los ejercicios están organizados en carpetas según los temas. Algunos ejemplos de los ejercicios incluyen:
-
-- Manipulación de Arrays
-- Funciones
-- Objetos y Clases
-- Promesas
-- Manipulación del DOM
-- Y más...
-
-Puedes explorar las carpetas y resolver los ejercicios a tu propio ritmo.
 
 ## Cómo utilizar este repositorio
 Esta sección proporciona información sobre cómo clonar el repositorio y cómo empezar a trabajar en los ejercicios.
