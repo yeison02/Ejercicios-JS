@@ -18,7 +18,7 @@ Este curso de ejercicios está diseñado para programadores de todos los niveles
 ## Cómo utilizar este repositorio
 Esta sección proporciona información sobre cómo clonar el repositorio y cómo empezar a trabajar en los ejercicios.
 
-1. Clona este repositorio en tu máquina local:
+1. Clona este repositorio en tu máquina local.
 
 2. Navega a la carpeta de ejercicios que te interese.
 
